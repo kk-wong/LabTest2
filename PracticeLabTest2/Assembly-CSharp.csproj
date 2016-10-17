@@ -50,7 +50,7 @@
      <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\Sketch.cs" />
-     <Compile Include="Assets\WaterPollutionReading.cs" />
+     <Compile Include="Assets\TreeSurvey.cs" />
      <Compile Include="Assets\WebRequest.cs" />
      <Compile Include="Assets\mySphereScript.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
