@@ -95,25 +95,10 @@ public class Sketch : MonoBehaviour {
 				//creating a cube where you hit the raycast
 				//ReadingID is 1- so you add -1 otherwise you will get index out of bound
 				GameObject newCube = (GameObject)Instantiate(cube, new Vector3(hit.point.x, hit.point.y, hit.point.z), Quaternion.identity);
-				newCube.GetComponentInChildren<TextMesh> ().text= "(Location:" + treesurveys[index-1].Location + "Ecological Value: " + treesurveys[index-1].EcologicalValue + ", Historical Significance: " + treesurveys[index-1].HistoricalSignificance + ", When Reading Recorded" + treesurveys[index-1].WhenReadingRecorded + ")";
+				newCube.GetComponentInChildren<TextMesh> ().text= "(Location:" + treesurveys[index-1].Location + " Ecological Value: " + treesurveys[index-1].EcologicalValue + ", Historical Significance: " + treesurveys[index-1].HistoricalSignificance + ", When Reading Recorded" + treesurveys[index-1].WhenReadingRecorded + ")";
 			}
 
 		}
 	}
 
 }
-
-//Update is called once per frame    
-
-
-//if (waterpollutionreading.X) {
-// float y = where it is on the y axis- where is it rotating on the y axis- You have three different levels and this is changed by float y
-//float y = 0.55f;
-//float z = 16.0f;
-// Create a new cube for every object in that table
-//GameObject newCube = (GameObject)Instantiate(myPrefab, new Vector3(x, y, z), Quaternion.identity);
-// <shows what you can put in- refer to unity>().field it is
-// changes cube size based on script in mycubescript- you can change this value directly
-//setsize(method) vs setsize = field
-//newCube.GetComponent<mySphereScript>().setSize(0.3f);
-//newCube.GetComponent<mySphereScript>().rotateSpeed = perc;
