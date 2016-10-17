@@ -48,10 +48,7 @@
      <Compile Include="Assets\LabelMaterial.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-     <Compile Include="Assets\Script1.cs" />
      <Compile Include="Assets\Sketch.cs" />
      <Compile Include="Assets\WaterPollutionReading.cs" />
      <Compile Include="Assets\WebRequest.cs" />
